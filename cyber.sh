@@ -20,6 +20,6 @@ while true; do
     fi
 
     # Run the AI model, capture and speak the response
-    echo "$user_input" | ollama run $MODEL_NAME | tee response.txt
-    espeak -s 140 -p 50 -f response.txt
+    # echo "$user_input" | ollama run $MODEL_NAME | tee response.txt
+    # espeak -s 140 -p 50 -f response.txt
 done
