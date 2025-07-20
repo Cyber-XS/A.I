@@ -21,7 +21,7 @@ Follow the steps below to set up and run the AI locally on your Linux machine:
 
 Open a terminal and run:
 
-    git clone https://github.com/Cyber-XS/A.I
+    git clone https://github.com/Cyber-XS/A.I.git
 
 2️⃣ Install Ollama
 
