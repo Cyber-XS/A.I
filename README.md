@@ -21,32 +21,32 @@ Follow the steps below to set up and run the AI locally on your machine:
 
 Open a terminal and run:
 
-git clone https://github.com/Cyber-XS/A.I
+    git clone https://github.com/Cyber-XS/A.I
 
 2️⃣ Install Ollama
 
 Ollama is required to run the Llama 3 model locally. Install it using the following command:
 
-curl -fsSL https://ollama.com/install.sh | sh
+    curl -fsSL https://ollama.com/install.sh | sh
 
 3️⃣ Pull the Llama 3 8B AI Model
 
 Download the Llama 3 8B model (approx 4.7 GB):
 
-ollama pull llama3:8b
+    ollama pull llama3:8b
 
 4️⃣ Rename the Model
 
 Create a custom name for your model (for example, cyber) using your Modelfile:
 
-ollama create cyber -f Modelfile
+    ollama create cyber -f Modelfile
 
 5️⃣ Run the AI
 
 Navigate into the cloned directory and start the AI:
 
-cd A.I
-./cyber.sh
+    cd A.I
+    ./cyber.sh
 
 🔊 Optional: Enable Voice Output
 
@@ -54,19 +54,19 @@ If you want voice output, do the following:
 
 6️⃣ Clone Whisper.cpp for Voice Functionality Inside the A.I directory, run:
 
-git clone https://github.com/ggml-org/whisper.cpp.git
+    git clone https://github.com/ggml-org/whisper.cpp.git
 
 7️⃣ Edit cyber.sh
 
 Uncomment the following lines in the cyber.sh file to enable text-to-speech output via espeak:
 
-# echo "$user_input" | ollama run $MODEL_NAME | tee response.txt
-# espeak -s 140 -p 50 -f response.txt
+    # echo "$user_input" | ollama run $MODEL_NAME | tee response.txt
+    # espeak -s 140 -p 50 -f response.txt
 
 After uncommenting:
 
-echo "$user_input" | ollama run $MODEL_NAME | tee response.txt
-espeak -s 140 -p 50 -f response.txt
+    echo "$user_input" | ollama run $MODEL_NAME | tee response.txt
+    espeak -s 140 -p 50 -f response.txt
 
 ✅ Done!
 
