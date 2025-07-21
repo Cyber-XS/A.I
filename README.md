@@ -23,6 +23,7 @@ Video Guide
 
 
 
+
 Follow the steps below to set up and run the AI locally on your Linux machine:
 
 1️⃣ Clone the Repository
