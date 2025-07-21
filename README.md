@@ -15,6 +15,13 @@ This repository houses an AI-powered solution designed for enhancing cybersecuri
 
 🔧 Installation Steps for Cyber-XS AI
 
+Video Guide
+
+## 📺 Video Guide for Setup
+
+[![Watch on YouTube](https://img.youtube.com/vi/6tTPVkHpxRw/0.jpg)](https://www.youtube.com/watch?v=6tTPVkHpxRw)
+
+
 Follow the steps below to set up and run the AI locally on your Linux machine:
 
 1️⃣ Clone the Repository
