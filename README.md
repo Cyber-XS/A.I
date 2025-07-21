@@ -58,14 +58,12 @@ If you want voice output, do the following:
 
 7️⃣ Edit cyber.sh
 
-Uncomment the following lines in the cyber.sh file to enable text-to-speech output via espeak:
+Uncomment the following line in the cyber.sh file to enable text-to-speech output via espeak:
 
-    # echo "$user_input" | ollama run $MODEL_NAME | tee response.txt
     # espeak -s 140 -p 50 -f response.txt
 
 After uncommenting:
 
-    echo "$user_input" | ollama run $MODEL_NAME | tee response.txt
     espeak -s 140 -p 50 -f response.txt
 
 ✅ Done!
