@@ -15,8 +15,6 @@ This repository houses an AI-powered solution designed for enhancing cybersecuri
 
 🔧 Installation Steps for Cyber-XS AI
 
-Video Guide
-
 ## 📺 Video Guide for Setup
 
 [![Watch on YouTube](https://img.youtube.com/vi/6tTPVkHpxRw/maxresdefault.jpg)](https://www.youtube.com/watch?v=6tTPVkHpxRw)
