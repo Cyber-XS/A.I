@@ -19,7 +19,7 @@ Video Guide
 
 ## 📺 Video Guide for Setup
 
-[![Watch on YouTube](https://img.shields.io/badge/Watch%20Video-Youtube-red?logo=youtube)](https://www.youtube.com/watch?v=6tTPVkHpxRw)
+[![Watch on YouTube](https://img.youtube.com/vi/6tTPVkHpxRw/maxresdefault.jpg)](https://www.youtube.com/watch?v=6tTPVkHpxRw)
 
 Follow the steps below to set up and run the AI locally on your Linux machine:
 
