@@ -46,6 +46,7 @@ Create a custom name for your model (for example, cyber) using your Modelfile:
 Navigate into the cloned directory and start the AI:
 
     cd A.I
+    chmod +x cyber.sh
     ./cyber.sh
 
 🔊 Optional: Enable Voice Output
