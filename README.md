@@ -82,8 +82,21 @@ Install WSL 2 by Steps given below:
   * Step 5 : Enable vertualization from bios if not enabled
   * Step 6 : Open PowerShell as Administrator by right click on it
   * Step 7 : run this command to isntall wsl 2 with ubuntu (Default)
-    wsl --install
 
+        wsl --install
+  * Step 8 : Restart
+  * Step 9 : set wsl to wsl version 2
+
+        wsl --set-version Ubuntu 2
+  * Step 10 : Launch ubuntu and set username and password
+  * Step 11 : Update Ubuntu repository by following command and enter password
+
+        sudo apt update
+
+  * Step 12 : Install git
+
+        sudo apt install git
+  * Step 13 : Follow all Steps of Installation process as mention at above
 
 ✅ Done!
 
