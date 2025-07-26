@@ -96,7 +96,7 @@ Install WSL 2 by Steps given below:
   * Step 12 : Install git
 
         sudo apt install git
-  * Step 13 : Follow all Steps of Installation process as mention at above
+  * Step 13 : Follow all Steps of Installation process as mention above
 
 ✅ Done!
 
