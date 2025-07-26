@@ -71,6 +71,10 @@ After uncommenting:
 
     espeak -s 140 -p 50 -f response.txt
 
+## To install in Windows Operating System
+
+
+
 ✅ Done!
 
 Your AI is now ready to run with or without voice output.
