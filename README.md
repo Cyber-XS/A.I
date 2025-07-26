@@ -73,6 +73,16 @@ After uncommenting:
 
 ## To install in Windows Operating System
 
+Install WSL 2 by Steps given below:
+
+  * Step 1 : Press windows key and Type Control Panel then open it
+  * Step 2 : Click on Programs
+  * Step 3 : Click on Turn Windows Feature on or off
+  * Step 4 : Tick Windows Subsystem for Linux then Restart
+  * Step 5 : Enable vertualization from bios if not enabled
+  * Step 6 : Open PowerShell as Administrator by right click on it
+  * Step 7 : run this command to isntall wsl 2 with ubuntu (Default)
+    wsl --install
 
 
 ✅ Done!
