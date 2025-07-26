@@ -26,6 +26,7 @@ Follow the steps below to set up and run the AI locally on your Linux machine:
 Open a terminal and run:
 
     git clone https://github.com/Cyber-XS/A.I.git
+    cd A.I
 
 2️⃣ Install Ollama
 
@@ -49,7 +50,6 @@ Create a custom name for your model (for example, cyber) using your Modelfile:
 
 Navigate into the cloned directory and start the AI:
 
-    cd A.I
     chmod +x cyber.sh
     ./cyber.sh
 
