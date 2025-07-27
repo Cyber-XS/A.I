@@ -71,7 +71,7 @@ After uncommenting:
 
     espeak -s 140 -p 50 -f response.txt
 
-## To install in Windows Operating System
+## To install on Windows Operating System
 
 Install WSL 2 by Steps given below:
 
