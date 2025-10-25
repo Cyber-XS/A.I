@@ -1,4 +1,4 @@
-AI for Local Cybersecurity 🔒
+# AI for Local Cybersecurity 🔒
 
 This repository houses an AI-powered solution designed for enhancing cybersecurity on local systems.
 
